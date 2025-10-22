@@ -1,12 +1,17 @@
+//refactor change 1
 function add(a, b) {
   return a + b;
 }
+
+//Refactor change 2
 
 function subtract(a, b) {
   return a - b;
 }
 
 //change 1
+//Refactor change 3
+
 document.getElementById('btn-add').addEventListener('click', () => {
   const a = Number(document.getElementById('a').value);
   const b = Number(document.getElementById('b').value);
