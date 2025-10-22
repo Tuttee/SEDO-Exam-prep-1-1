@@ -12,6 +12,7 @@ function subtract(a, b) {
 //change 1
 //Refactor change 3
 
+//change 1
 document.getElementById('btn-add').addEventListener('click', () => {
   const a = Number(document.getElementById('a').value);
   const b = Number(document.getElementById('b').value);
@@ -19,10 +20,13 @@ document.getElementById('btn-add').addEventListener('click', () => {
 });
 
 //Change 2
+//Change 2
 document.getElementById('btn-subtract').addEventListener('click', () => {
   const a = Number(document.getElementById('a').value);
   const b = Number(document.getElementById('b').value);
   document.getElementById('result').textContent = subtract(a, b);
 });
+
+//Change 3
 
 //Change 3
